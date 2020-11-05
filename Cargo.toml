@@ -1,0 +1,6 @@
+[workspace]
+members = [
+ "crates/maven",
+ "crates/maven-cli",
+ "crates/support"
+]

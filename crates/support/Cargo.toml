@@ -1,0 +1,8 @@
+[package]
+name = "support"
+version = "0.0.1"
+authors = ["Timo Bryant <kinchdeadalus+github@gmail.com>"]
+description = """
+Various support functions
+"""
+edition = "2018"

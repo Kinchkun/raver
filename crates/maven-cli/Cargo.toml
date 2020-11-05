@@ -1,0 +1,18 @@
+[package]
+name = "raver2"
+version = "0.0.1-pre"
+authors = ["Timo Bryant <kinchdeadalus+github@gmail.com>"]
+description = """
+A maven client application
+"""
+edition = "2018"
+
+[dependencies]
+structopt = "0.3.20"
+
+tokio = { version = "0.2", features = ["full"] }
+
+url = "2.1.1"
+maven = { path = "../maven"}
+pretty_env_logger = "0.4.0"
+futures = "0.3.7"
